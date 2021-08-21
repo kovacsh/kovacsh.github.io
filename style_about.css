@@ -1,9 +1,15 @@
+
+body{
+    color:  #2681d6;
+
+}
+
 .udv {
-    color: #3cb878;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 a {
     color: #3cb878;  
   }
