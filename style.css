@@ -1,0 +1,110 @@
+h1 {
+  color: #3cb878;
+}
+
+.nagyDoboz {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.hirlevelDoboz {
+  color: grey;
+  border: solid thin #cfcfcf;
+  border-radius: 3px;
+  padding: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.hirlevelDoboz h3{
+  margin-top: 0;
+}
+
+.hirlevelDoboz input#email{
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 4px;
+  border: solid #cfcfcf 1px;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.hirlevelDoboz button{
+  border: none;
+  background-color: #3cb878;
+  color: white;
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px; 
+}
+
+.hirlevelDoboz #egyetert {
+  position: relative;
+  top: 1px;
+  
+}
+
+.hirlevelDoboz #bezarx {
+  position: absolute;
+  top: 0;
+  right: 4px;
+  
+}
+
+#kerdojel {
+  background-color: #3cb878;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  color: white;
+  font-size: 71px;
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+#kartyatarto {
+  display: flex;
+  /* flex-direction: row; 
+   flex-direction: column;
+   height: 600px;*/
+  justify-content: space-between;
+  /*space-around, space-start; space-end*/
+  /* align-content: space-around;*/
+  
+  margin-bottom: 20px;
+  margin-top: 20px;
+  align-items: center;  
+  /* flex-wrap: wrap;*/
+  
+}
+
+.kartya {
+  /* flex-grow: 1; */
+  background-color: #3cb878;
+  width: 180px;
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+  box-shadow: 0px 0px 7px 2px grey;  
+}
+
+
+
+ /* .kozepso {
+  margin: 0 30px;
+  padding: 20px;
+  flex-grow: 1.5;   
+}  */
+
+.kartya h3 {
+  margin-bottom: 0;
+}
+a {
+  color: #3cb878;  
+}
